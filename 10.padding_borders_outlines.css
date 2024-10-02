@@ -1,0 +1,19 @@
+body{
+  
+}
+h1{
+  /*borders*/
+  border: 3px solid purple;
+  border-radius: 20px;
+  padding: 40px 10px 20px;
+  /*outlines*/
+  outline-style:dashed;
+  outline-offset: 10px;
+}
+p{
+  /*height and width*/
+  height: 60px;
+  background-color: purple;
+  width: 100%;
+  
+}
