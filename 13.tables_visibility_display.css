@@ -1,0 +1,26 @@
+body {
+}
+  table, th, td {
+    border: 2px solid;
+    width: 50%;
+    border-collapse: collapse;
+  }
+th{
+  height: 50px;
+}
+td{
+  text-align: center;
+}
+th, td{
+  padding: 15px;
+}
+tr:hover{
+  /*after you run the code and get your results try put the cursor on the top of the result and see what happens*/
+  background-color: blue;
+}
+/*dispay and visibility*/
+table, th, td{
+  /*none allows us to remove an element entirely from the web page, visibilities still lets the element be present in the web page but not show*/
+  display: none;
+  visibility: hidden;
+}
