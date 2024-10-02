@@ -1,0 +1,26 @@
+body{
+    background-image: url("https://www.computersciencedegreehub.com/wp-content/uploads/2016/02/what-is-coding-1024x683.jpg")
+    /*background-position: right top;*/
+  }
+  p{
+    margin-left: 50px;
+    margin-top: 50%;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    /* the whole of the above can be summarised by:*margin: 50px 50px 50px 50px;*/
+  }
+  p{
+    border-style: dotted;
+    border-width: 10px;
+    /* to have different thicknesses of the borders, we can use border-width: 10px 5px; */
+    border-color: blue green red yellow;
+  }
+  h1{
+    border-style: solid;
+    border-width: thick;
+    border-top-stye:dotted;
+    border-bottom-style: dashed;
+    border-color: blue green red yellow;
+    border-radius: 4px;
+    /*other styles include *groove,dashed,double,inset,outset,ridge,hidden,none*,,, you can also mix different styles together by writing *border-style: dashed double dotted solid*; */
+  }
