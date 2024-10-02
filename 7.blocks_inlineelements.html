@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<!-- Block elements start on a new line while inline element does not start on anew line-->
+<head>
+</head>
+
+<body>
+  <!-- block-->
+  <div>
+    <h1>First div</h1>
+    <b>This is bold</b>
+  </div>
+  
+  <div style = "color:green; background-color: blue;">
+    <h1>Another one</h1>
+    <!--inline-->
+    <p>Hi<b> that was a bold one</b></p>
+  </div>
+
+  <!-- iframe is used to show a webpage inside a webpage-->
+  <iframe src = "https://google.com" height = "100" width = "100" style = "border: none:;"></iframe>
+
+  <!-- symbols -->
+  <!-- euro sign-->
+  <p>This is euro sign &euro; </p>
+  <!-- copyright sign"169", registered sign "174", signs on a card "spade sign 9824", clubs "9827", Trade Mark "8482"-->
+  <p>This is a copyright sign &#169; </p>
+
+  <!-- html forms "way to colect input from a user"-->
+
+  <!-- to specify where you are sending the data in the form, write your code like this: <form action = ""the name of a particular directory etc.html>
+  In "get" method all the data will be shown in the url, while in "post" method nothing will be shown, Get method is the default until you specify, 
+example, our code will look like this: <form action = "form.html" method = "post">
+  -->
+<body>
+  <form action = "form.html" method = "post">
+    <input type= "numbers">
+    
+    <br>
+    <label for = "username">Name</label>
+    <br>
+    <input type= "text" name ="username" id = "username">
+    <br>
+    <label for="school">school</label>
+    <br>
+    <input type = "text" name ="school" id = "school">
+<!--checkbox-->
+    <br>
+    <label for = "username">Tomi</label>
+    <br>
+    <input type= "checkbox" name ="username" id = "tomi">
+    
+    <br>
+    <label for = "username2">Tim</label>
+    <!--radio-->
+    <br>
+    <input type= "radio" name ="username2" id = "username2">
+    <!--submit-->
+    <br>
+    <input type = "submit" value = "Send">
+  </form>
+</body>
+  
+ 
+</body>
+
+</html>
