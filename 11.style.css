@@ -1,0 +1,36 @@
+body{
+  
+}
+h1{
+  color:red;
+  background-color: blue;
+  /*alignment*/
+  text-align: center;
+  /*other types of alignments are: justify, left, right*/
+  text-align-last: center;
+
+}
+h1{
+  text-decoration-line: overline underline;
+  text-decoration-color: greenyellow;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 10px;
+  /*to combine all the above in one line code*/
+  text-decoration: overline purple solid 6px;
+  /*you can use "none" for text decoration in mostly on the lines you want to remove a line e.g links*/
+}
+h1, a{
+  text-transform: capitalize;
+  /*other types of text-transform: capitalize, lowercase, uppercase, none*/
+  text-indent: 30px;
+}
+h1, a, p{
+  letter-spacing: 30px;
+}
+/*FONTS*/
+h1, p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 4em;
+}
