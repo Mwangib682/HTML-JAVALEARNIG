@@ -1,0 +1,24 @@
+/*body is the selector and height/width/background etc. are the declarations*/
+body {
+    background-color: green;
+  }
+  
+  /*selectors are used to select html element that you want to style... below we are selecting an element based on class */
+  .heading{
+    background-color: red;
+  }
+  /* you can also use id '#' to select where there is id in the html code*/
+  #welcome{
+    background-color: blue;
+  }
+  /*universal selector '*' is used to select all elements, here all elements will change into purple */
+  *{
+    color: purple;
+  }
+  /*grouping selector is used to select multiple elements*/
+  h1,p{
+    color: yellow;
+  }
+  
+  
+  
